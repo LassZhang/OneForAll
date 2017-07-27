@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9E4E1FCD1334142EEBBB8E83 /* libPods-OneForAll2017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 059518A6C8E61EFE3C95EECA /* libPods-OneForAll2017.a */; };
-		D749C0FD1F29ED9F00DEF1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C0FC1F29ED9F00DEF1F5 /* main.m */; };
-		D749C1001F29ED9F00DEF1F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C0FF1F29ED9F00DEF1F5 /* AppDelegate.m */; };
-		D749C1031F29ED9F00DEF1F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1021F29ED9F00DEF1F5 /* ViewController.m */; };
-		D749C1061F29ED9F00DEF1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D749C1041F29ED9F00DEF1F5 /* Main.storyboard */; };
-		D749C1081F29ED9F00DEF1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D749C1071F29ED9F00DEF1F5 /* Assets.xcassets */; };
-		D749C10B1F29ED9F00DEF1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D749C1091F29ED9F00DEF1F5 /* LaunchScreen.storyboard */; };
 		D749C1161F29ED9F00DEF1F5 /* OneForAll2017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1151F29ED9F00DEF1F5 /* OneForAll2017Tests.m */; };
 		D749C1211F29ED9F00DEF1F5 /* OneForAll2017UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1201F29ED9F00DEF1F5 /* OneForAll2017UITests.m */; };
+		D749C13A1F29EF9F00DEF1F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1301F29EF9F00DEF1F5 /* AppDelegate.m */; };
+		D749C13B1F29EF9F00DEF1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D749C1311F29EF9F00DEF1F5 /* Assets.xcassets */; };
+		D749C13C1F29EF9F00DEF1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D749C1321F29EF9F00DEF1F5 /* LaunchScreen.storyboard */; };
+		D749C13D1F29EF9F00DEF1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D749C1341F29EF9F00DEF1F5 /* Main.storyboard */; };
+		D749C13E1F29EF9F00DEF1F5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D749C1361F29EF9F00DEF1F5 /* Info.plist */; };
+		D749C13F1F29EF9F00DEF1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1371F29EF9F00DEF1F5 /* main.m */; };
+		D749C1401F29EF9F00DEF1F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1391F29EF9F00DEF1F5 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,21 +40,21 @@
 		059518A6C8E61EFE3C95EECA /* libPods-OneForAll2017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneForAll2017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEC088764456B963E924A0 /* Pods-OneForAll2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneForAll2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneForAll2017/Pods-OneForAll2017.debug.xcconfig"; sourceTree = "<group>"; };
 		D749C0F81F29ED9F00DEF1F5 /* OneForAll2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneForAll2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D749C0FC1F29ED9F00DEF1F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D749C0FE1F29ED9F00DEF1F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D749C0FF1F29ED9F00DEF1F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D749C1011F29ED9F00DEF1F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D749C1021F29ED9F00DEF1F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D749C1051F29ED9F00DEF1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D749C1071F29ED9F00DEF1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D749C10A1F29ED9F00DEF1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D749C10C1F29ED9F00DEF1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D749C1111F29ED9F00DEF1F5 /* OneForAll2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneForAll2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D749C1151F29ED9F00DEF1F5 /* OneForAll2017Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneForAll2017Tests.m; sourceTree = "<group>"; };
 		D749C1171F29ED9F00DEF1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D749C11C1F29ED9F00DEF1F5 /* OneForAll2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneForAll2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D749C1201F29ED9F00DEF1F5 /* OneForAll2017UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneForAll2017UITests.m; sourceTree = "<group>"; };
 		D749C1221F29ED9F00DEF1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D749C12F1F29EF9F00DEF1F5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D749C1301F29EF9F00DEF1F5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D749C1311F29EF9F00DEF1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D749C1331F29EF9F00DEF1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D749C1351F29EF9F00DEF1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D749C1361F29EF9F00DEF1F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D749C1371F29EF9F00DEF1F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D749C1381F29EF9F00DEF1F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D749C1391F29EF9F00DEF1F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E605ECD75EB36E56F4F0F1B5 /* Pods-OneForAll2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneForAll2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneForAll2017/Pods-OneForAll2017.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,25 +126,9 @@
 		D749C0FA1F29ED9F00DEF1F5 /* OneForAll2017 */ = {
 			isa = PBXGroup;
 			children = (
-				D749C0FE1F29ED9F00DEF1F5 /* AppDelegate.h */,
-				D749C0FF1F29ED9F00DEF1F5 /* AppDelegate.m */,
-				D749C1011F29ED9F00DEF1F5 /* ViewController.h */,
-				D749C1021F29ED9F00DEF1F5 /* ViewController.m */,
-				D749C1041F29ED9F00DEF1F5 /* Main.storyboard */,
-				D749C1071F29ED9F00DEF1F5 /* Assets.xcassets */,
-				D749C1091F29ED9F00DEF1F5 /* LaunchScreen.storyboard */,
-				D749C10C1F29ED9F00DEF1F5 /* Info.plist */,
-				D749C0FB1F29ED9F00DEF1F5 /* Supporting Files */,
+				D749C12E1F29EF9F00DEF1F5 /* SYS */,
 			);
 			path = OneForAll2017;
-			sourceTree = "<group>";
-		};
-		D749C0FB1F29ED9F00DEF1F5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D749C0FC1F29ED9F00DEF1F5 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D749C1141F29ED9F00DEF1F5 /* OneForAll2017Tests */ = {
@@ -162,6 +147,22 @@
 				D749C1221F29ED9F00DEF1F5 /* Info.plist */,
 			);
 			path = OneForAll2017UITests;
+			sourceTree = "<group>";
+		};
+		D749C12E1F29EF9F00DEF1F5 /* SYS */ = {
+			isa = PBXGroup;
+			children = (
+				D749C12F1F29EF9F00DEF1F5 /* AppDelegate.h */,
+				D749C1301F29EF9F00DEF1F5 /* AppDelegate.m */,
+				D749C1311F29EF9F00DEF1F5 /* Assets.xcassets */,
+				D749C1321F29EF9F00DEF1F5 /* LaunchScreen.storyboard */,
+				D749C1341F29EF9F00DEF1F5 /* Main.storyboard */,
+				D749C1361F29EF9F00DEF1F5 /* Info.plist */,
+				D749C1371F29EF9F00DEF1F5 /* main.m */,
+				D749C1381F29EF9F00DEF1F5 /* ViewController.h */,
+				D749C1391F29EF9F00DEF1F5 /* ViewController.m */,
+			);
+			path = SYS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +277,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D749C10B1F29ED9F00DEF1F5 /* LaunchScreen.storyboard in Resources */,
-				D749C1081F29ED9F00DEF1F5 /* Assets.xcassets in Resources */,
-				D749C1061F29ED9F00DEF1F5 /* Main.storyboard in Resources */,
+				D749C13E1F29EF9F00DEF1F5 /* Info.plist in Resources */,
+				D749C13D1F29EF9F00DEF1F5 /* Main.storyboard in Resources */,
+				D749C13B1F29EF9F00DEF1F5 /* Assets.xcassets in Resources */,
+				D749C13C1F29EF9F00DEF1F5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D749C1031F29ED9F00DEF1F5 /* ViewController.m in Sources */,
-				D749C1001F29ED9F00DEF1F5 /* AppDelegate.m in Sources */,
-				D749C0FD1F29ED9F00DEF1F5 /* main.m in Sources */,
+				D749C1401F29EF9F00DEF1F5 /* ViewController.m in Sources */,
+				D749C13F1F29EF9F00DEF1F5 /* main.m in Sources */,
+				D749C13A1F29EF9F00DEF1F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,20 +391,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D749C1041F29ED9F00DEF1F5 /* Main.storyboard */ = {
+		D749C1321F29EF9F00DEF1F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D749C1051F29ED9F00DEF1F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D749C1091F29ED9F00DEF1F5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D749C10A1F29ED9F00DEF1F5 /* Base */,
+				D749C1331F29EF9F00DEF1F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D749C1341F29EF9F00DEF1F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D749C1351F29EF9F00DEF1F5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -506,7 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FFETRTA257;
-				INFOPLIST_FILE = OneForAll2017/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OneForAll2017/SYS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LassZhang.OneForAll2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,7 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FFETRTA257;
-				INFOPLIST_FILE = OneForAll2017/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OneForAll2017/SYS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LassZhang.OneForAll2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,6 +597,7 @@
 				D749C1271F29ED9F00DEF1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D749C1281F29ED9F00DEF1F5 /* Build configuration list for PBXNativeTarget "OneForAll2017Tests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +606,7 @@
 				D749C12A1F29ED9F00DEF1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D749C12B1F29ED9F00DEF1F5 /* Build configuration list for PBXNativeTarget "OneForAll2017UITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +615,7 @@
 				D749C12D1F29ED9F00DEF1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
