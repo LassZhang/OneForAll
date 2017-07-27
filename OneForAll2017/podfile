@@ -1,0 +1,18 @@
+target 'OneForAll2017’ do
+    
+    # 国内使用 pod update --verbose --no-repo-update
+    
+    # 网络库
+    pod 'XMNetworking','1.0.2'
+    # 控件布局
+    pod 'Masonry','1.0.2'
+    # 图片加载
+    pod 'SDWebImage', '4.0.0'
+    # JSON 模型框架
+    pod 'MJExtension','3.0.13'
+    # TabbarController
+    pod 'CYLTabBarController','1.10.0'
+    # 刷新控件
+    pod 'MJRefresh'
+
+end
