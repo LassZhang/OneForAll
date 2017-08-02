@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TreeViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Tree,like it ?";
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.navigationController pushViewController:[[TreeViewController alloc] init] animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
