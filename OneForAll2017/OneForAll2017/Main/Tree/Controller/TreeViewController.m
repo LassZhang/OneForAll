@@ -20,9 +20,6 @@ static NSString * treeCellID = @"TreeCellID";
 
 /** tableView */
 @property (nonatomic,strong) UITableView*                         tableView;
-
-/** dataSource */
-@property (nonatomic,strong) NSMutableArray*                      dataArray;
 /** subjectArray */
 @property (nonatomic,strong) NSMutableArray*                         subjectArray;
 @end
@@ -147,8 +144,8 @@ static NSString * treeCellID = @"TreeCellID";
         {
             subject.isExpand = !isExpand;
             [weakself.subjectArray replaceObjectAtIndex:section withObject:subject];
-                       [tableView reloadSections:[[NSIndexSet alloc] initWithIndex:section] withRowAnimation:UITableViewRowAnimationAutomatic];
-//            [tableView reloadData];
+//                       [tableView reloadSections:[[NSIndexSet alloc] initWithIndex:section] withRowAnimation:UITableViewRowAnimationAutomatic];
+            [tableView reloadData];
         }
     };
     
