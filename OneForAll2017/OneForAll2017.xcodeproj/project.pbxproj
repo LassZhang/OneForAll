@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC150761F417E8500E51839 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC150751F417E8500E51839 /* UIView+Toast.m */; };
+		3BC150791F41A9F300E51839 /* TreeViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC150781F41A9F300E51839 /* TreeViewController2.m */; };
+		3BC1507C1F41AA5700E51839 /* MultiTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1507B1F41AA5700E51839 /* MultiTree.m */; };
 		3BF301F61F31C591006CD2D2 /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF301F51F31C591006CD2D2 /* TreeViewController.m */; };
 		3BF301F91F31C5A2006CD2D2 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF301F81F31C5A2006CD2D2 /* Tree.m */; };
 		3BF301FD1F31C610006CD2D2 /* TreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF301FB1F31C610006CD2D2 /* TreeTableViewCell.m */; };
 		3BF301FE1F31C610006CD2D2 /* TreeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF301FC1F31C610006CD2D2 /* TreeTableViewCell.xib */; };
 		3BF302011F31D649006CD2D2 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF302001F31D649006CD2D2 /* HeaderView.m */; };
 		3BF3025B1F33196E006CD2D2 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3025A1F33196E006CD2D2 /* CommonTools.m */; };
+		3BF3025F1F345B7F006CD2D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3025E1F345B7F006CD2D2 /* BaseViewController.m */; };
+		3BF302621F345BB4006CD2D2 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF302611F345BB4006CD2D2 /* FollowViewController.m */; };
+		3BF302651F345BC0006CD2D2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF302641F345BC0006CD2D2 /* HomeViewController.m */; };
+		3BF3026B1F345BED006CD2D2 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3026A1F345BED006CD2D2 /* LiveViewController.m */; };
+		3BF3026E1F345BFD006CD2D2 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3026D1F345BFD006CD2D2 /* MeViewController.m */; };
+		3BF302751F3462B2006CD2D2 /* PlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF302741F3462B2006CD2D2 /* PlusButton.m */; };
 		9E4E1FCD1334142EEBBB8E83 /* libPods-OneForAll2017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 059518A6C8E61EFE3C95EECA /* libPods-OneForAll2017.a */; };
 		D749C1161F29ED9F00DEF1F5 /* OneForAll2017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1151F29ED9F00DEF1F5 /* OneForAll2017Tests.m */; };
 		D749C1211F29ED9F00DEF1F5 /* OneForAll2017UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1201F29ED9F00DEF1F5 /* OneForAll2017UITests.m */; };
@@ -22,7 +31,6 @@
 		D749C13D1F29EF9F00DEF1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D749C1341F29EF9F00DEF1F5 /* Main.storyboard */; };
 		D749C13E1F29EF9F00DEF1F5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D749C1361F29EF9F00DEF1F5 /* Info.plist */; };
 		D749C13F1F29EF9F00DEF1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1371F29EF9F00DEF1F5 /* main.m */; };
-		D749C1401F29EF9F00DEF1F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D749C1391F29EF9F00DEF1F5 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,12 @@
 
 /* Begin PBXFileReference section */
 		059518A6C8E61EFE3C95EECA /* libPods-OneForAll2017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneForAll2017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC150741F417E8500E51839 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		3BC150751F417E8500E51839 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		3BC150771F41A9F300E51839 /* TreeViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewController2.h; sourceTree = "<group>"; };
+		3BC150781F41A9F300E51839 /* TreeViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewController2.m; sourceTree = "<group>"; };
+		3BC1507A1F41AA5700E51839 /* MultiTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTree.h; sourceTree = "<group>"; };
+		3BC1507B1F41AA5700E51839 /* MultiTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTree.m; sourceTree = "<group>"; };
 		3BF301F41F31C591006CD2D2 /* TreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewController.h; sourceTree = "<group>"; };
 		3BF301F51F31C591006CD2D2 /* TreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewController.m; sourceTree = "<group>"; };
 		3BF301F71F31C5A2006CD2D2 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
@@ -59,6 +73,18 @@
 		3BF302581F331950006CD2D2 /* PublicConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicConfig.h; sourceTree = "<group>"; };
 		3BF302591F33196E006CD2D2 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
 		3BF3025A1F33196E006CD2D2 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		3BF3025D1F345B7F006CD2D2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3BF3025E1F345B7F006CD2D2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3BF302601F345BB4006CD2D2 /* FollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		3BF302611F345BB4006CD2D2 /* FollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		3BF302631F345BC0006CD2D2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3BF302641F345BC0006CD2D2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3BF302691F345BED006CD2D2 /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		3BF3026A1F345BED006CD2D2 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		3BF3026C1F345BFD006CD2D2 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		3BF3026D1F345BFD006CD2D2 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		3BF302731F3462B2006CD2D2 /* PlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusButton.h; sourceTree = "<group>"; };
+		3BF302741F3462B2006CD2D2 /* PlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusButton.m; sourceTree = "<group>"; };
 		3FBEC088764456B963E924A0 /* Pods-OneForAll2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneForAll2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneForAll2017/Pods-OneForAll2017.debug.xcconfig"; sourceTree = "<group>"; };
 		D749C0F81F29ED9F00DEF1F5 /* OneForAll2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneForAll2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D749C1111F29ED9F00DEF1F5 /* OneForAll2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneForAll2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,8 +100,6 @@
 		D749C1351F29EF9F00DEF1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D749C1361F29EF9F00DEF1F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D749C1371F29EF9F00DEF1F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D749C1381F29EF9F00DEF1F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D749C1391F29EF9F00DEF1F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E605ECD75EB36E56F4F0F1B5 /* Pods-OneForAll2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneForAll2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneForAll2017/Pods-OneForAll2017.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +137,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3BC150731F417E8500E51839 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				3BC150741F417E8500E51839 /* UIView+Toast.h */,
+				3BC150751F417E8500E51839 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 		3BF301EF1F31C4FD006CD2D2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +175,8 @@
 			children = (
 				3BF301F41F31C591006CD2D2 /* TreeViewController.h */,
 				3BF301F51F31C591006CD2D2 /* TreeViewController.m */,
+				3BC150771F41A9F300E51839 /* TreeViewController2.h */,
+				3BC150781F41A9F300E51839 /* TreeViewController2.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +186,8 @@
 			children = (
 				3BF301F71F31C5A2006CD2D2 /* Tree.h */,
 				3BF301F81F31C5A2006CD2D2 /* Tree.m */,
+				3BC1507A1F41AA5700E51839 /* MultiTree.h */,
+				3BC1507B1F41AA5700E51839 /* MultiTree.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,6 +258,7 @@
 		3BF302331F3312FE006CD2D2 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				3BC150731F417E8500E51839 /* Toast */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -239,6 +277,8 @@
 		3BF302351F33130B006CD2D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3BF302601F345BB4006CD2D2 /* FollowViewController.h */,
+				3BF302611F345BB4006CD2D2 /* FollowViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -278,6 +318,8 @@
 		3BF3023A1F33130B006CD2D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3BF302631F345BC0006CD2D2 /* HomeViewController.h */,
+				3BF302641F345BC0006CD2D2 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -317,6 +359,8 @@
 		3BF3023F1F33130B006CD2D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3BF302691F345BED006CD2D2 /* LiveViewController.h */,
+				3BF3026A1F345BED006CD2D2 /* LiveViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -356,6 +400,8 @@
 		3BF302441F33130B006CD2D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3BF3026C1F345BFD006CD2D2 /* MeViewController.h */,
+				3BF3026D1F345BFD006CD2D2 /* MeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -384,6 +430,7 @@
 		3BF302481F33130B006CD2D2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				3BF3025C1F345B66006CD2D2 /* Base */,
 				3BF302491F33130B006CD2D2 /* Login */,
 				3BF3024A1F33130B006CD2D2 /* Navigation */,
 				3BF3024B1F33130B006CD2D2 /* Others */,
@@ -424,6 +471,10 @@
 		3BF3024D1F33130B006CD2D2 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				3BF3026F1F3462A0006CD2D2 /* Controller */,
+				3BF302701F3462A0006CD2D2 /* Model */,
+				3BF302711F3462A0006CD2D2 /* Other */,
+				3BF302721F3462A0006CD2D2 /* View */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -461,6 +512,45 @@
 			sourceTree = "<group>";
 		};
 		3BF302521F33130B006CD2D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BF3025C1F345B66006CD2D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3BF3025D1F345B7F006CD2D2 /* BaseViewController.h */,
+				3BF3025E1F345B7F006CD2D2 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3BF3026F1F3462A0006CD2D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BF302701F3462A0006CD2D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BF302711F3462A0006CD2D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3BF302731F3462B2006CD2D2 /* PlusButton.h */,
+				3BF302741F3462B2006CD2D2 /* PlusButton.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3BF302721F3462A0006CD2D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -538,8 +628,6 @@
 				D749C1341F29EF9F00DEF1F5 /* Main.storyboard */,
 				D749C1361F29EF9F00DEF1F5 /* Info.plist */,
 				D749C1371F29EF9F00DEF1F5 /* main.m */,
-				D749C1381F29EF9F00DEF1F5 /* ViewController.h */,
-				D749C1391F29EF9F00DEF1F5 /* ViewController.m */,
 				3BF302541F331744006CD2D2 /* PrefixHeader.pch */,
 			);
 			path = SYS;
@@ -694,7 +782,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EA361F8CB27E749C1B0A70C4 /* [CP] Embed Pods Frameworks */ = {
@@ -735,11 +823,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF302011F31D649006CD2D2 /* HeaderView.m in Sources */,
+				3BC1507C1F41AA5700E51839 /* MultiTree.m in Sources */,
+				3BF3025F1F345B7F006CD2D2 /* BaseViewController.m in Sources */,
 				3BF301F91F31C5A2006CD2D2 /* Tree.m in Sources */,
+				3BC150761F417E8500E51839 /* UIView+Toast.m in Sources */,
 				3BF3025B1F33196E006CD2D2 /* CommonTools.m in Sources */,
-				D749C1401F29EF9F00DEF1F5 /* ViewController.m in Sources */,
 				D749C13F1F29EF9F00DEF1F5 /* main.m in Sources */,
+				3BF3026B1F345BED006CD2D2 /* LiveViewController.m in Sources */,
+				3BC150791F41A9F300E51839 /* TreeViewController2.m in Sources */,
+				3BF302651F345BC0006CD2D2 /* HomeViewController.m in Sources */,
 				3BF301F61F31C591006CD2D2 /* TreeViewController.m in Sources */,
+				3BF3026E1F345BFD006CD2D2 /* MeViewController.m in Sources */,
+				3BF302621F345BB4006CD2D2 /* FollowViewController.m in Sources */,
+				3BF302751F3462B2006CD2D2 /* PlusButton.m in Sources */,
 				D749C13A1F29EF9F00DEF1F5 /* AppDelegate.m in Sources */,
 				3BF301FD1F31C610006CD2D2 /* TreeTableViewCell.m in Sources */,
 			);

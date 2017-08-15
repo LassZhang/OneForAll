@@ -144,8 +144,8 @@ static NSString * treeCellID = @"TreeCellID";
         {
             subject.isExpand = !isExpand;
             [weakself.subjectArray replaceObjectAtIndex:section withObject:subject];
-//                       [tableView reloadSections:[[NSIndexSet alloc] initWithIndex:section] withRowAnimation:UITableViewRowAnimationAutomatic];
-            [tableView reloadData];
+                       [tableView reloadSections:[[NSIndexSet alloc] initWithIndex:section] withRowAnimation:UITableViewRowAnimationAutomatic];
+//            [tableView reloadData];
         }
     };
     

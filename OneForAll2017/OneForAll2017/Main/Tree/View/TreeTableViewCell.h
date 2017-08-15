@@ -10,5 +10,6 @@
 
 @interface TreeTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *cellTitleLable;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leadingConstraint;
 
 @end

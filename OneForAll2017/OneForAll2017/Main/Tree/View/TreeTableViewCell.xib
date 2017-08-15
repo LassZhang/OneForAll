@@ -16,11 +16,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="慢点走，等等你的灵魂-- India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8j-gi-0Sr">
-                        <rect key="frame" x="8" y="8" width="229.5" height="27.5"/>
+                        <rect key="frame" x="8" y="8" width="304" height="27.5"/>
                         <color key="backgroundColor" red="0.82352941180000006" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -28,6 +28,7 @@
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="q8j-gi-0Sr" secondAttribute="trailing" id="4dW-oU-Ln7"/>
                     <constraint firstItem="q8j-gi-0Sr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="G9m-3q-wEi"/>
                     <constraint firstAttribute="bottomMargin" secondItem="q8j-gi-0Sr" secondAttribute="bottom" id="TF4-lE-d7X"/>
                     <constraint firstItem="q8j-gi-0Sr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="pQU-mv-qyc"/>
@@ -35,6 +36,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="cellTitleLable" destination="q8j-gi-0Sr" id="84j-GS-rRe"/>
+                <outlet property="leadingConstraint" destination="G9m-3q-wEi" id="O1t-CX-EGs"/>
             </connections>
             <point key="canvasLocation" x="-139" y="-16"/>
         </tableViewCell>
